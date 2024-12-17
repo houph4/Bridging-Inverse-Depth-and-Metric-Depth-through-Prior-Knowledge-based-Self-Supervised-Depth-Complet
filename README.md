@@ -4,7 +4,7 @@
 
 Before running the program:  
 1. Download the official [DepthAnythingV2](https://github.com/DepthAnything/Depth-Anything-V2) library and [Checkpoints](https://github.com/DepthAnything/Depth-Anything-V2/tree/main/metric_depth#pre-trained-models).  
-2. Place it in the `Process_est/ `  
+2. Place them in the `Process_est/ `  
 3. Rename the folder to `da2`.  
 
 ### Dataset Processing Instructions
@@ -16,7 +16,9 @@ You can easily process the following datasets:
 
 To process the data, run the following scripts:  
 - `Process_est/kitti.py`  
-- `Process_est/nyuv2.py`  
+- `Process_est/nyuv2.py`
+- For KITTI:We have processed the train, val, saval and test of the KITTI dataset, you can also download it directly [Google Driver](https://drive.google.com/drive/folders/1MM3gwcAIz6JAED2PLrvwGRLGO8yYT5l5?usp=sharing)
+- For NYUv2：We provide a script that can directly insert the processed data into the h5 file. You can do this easily.
 
 
 
