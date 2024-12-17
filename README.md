@@ -3,8 +3,8 @@
 ### Pre-Execution Setup  
 
 Before running the program:  
-1. Download the official [DepthAnythingV2](https://github.com/DepthAnything/Depth-Anything-V2) library.  
-2. Place it in the `Process_est `  
+1. Download the official [DepthAnythingV2](https://github.com/DepthAnything/Depth-Anything-V2) library and [Checkoiubts](https://github.com/DepthAnything/Depth-Anything-V2).  
+2. Place it in the `Process_est/ `  
 3. Rename the folder to `da2`.  
 
 ### Dataset Processing Instructions
