@@ -78,9 +78,9 @@ class DepthAlignmentWrapper(nn.Module):
         return depth_predicted_aligned, inlier_ratio
 
 
-class AIRnet(nn.Module):
+class Net(nn.Module):
     def __init__(self):
-        super(AIRnet, self).__init__()
+        super(Net, self).__init__()
         self.RESnet = DiffusionModel()
         self.min_predict_depth = 0.1
         self.max_predict_depth = 5.0
@@ -98,7 +98,7 @@ class AIRnet(nn.Module):
 class Foundationdc(nn.Module):
     def __init__(self):
         super(Foundationdc, self).__init__()
-        self.resnet = AIRnet()
+        self.resnet = Net()
         self.alignment = DepthAlignmentWrapper(
             knn_outlier_removal_multiscale,
             sample_size=20,
