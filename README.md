@@ -9,7 +9,7 @@ Before running the program:
 
 ### 2.Dataset Processing Instructions
 
-You can easily process the following datasets:
+You can easily download and process the following datasets:
 
 1. [KITTI Dataset](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion)  
 2. [NYUV2 Dataset-H5](http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz)
