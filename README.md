@@ -12,11 +12,14 @@ Before running the program:
 You can easily process the following datasets:
 
 1. [KITTI Dataset](http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion)  
-2. [NYUV2 Dataset-H5](http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz)  
+2. [NYUV2 Dataset-H5](http://datasets.lids.mit.edu/sparse-to-dense/data/nyudepthv2.tar.gz)
+3. [VOID Dataset](https://drive.google.com/open?id=1rzTFD35OCxMIguxLDcBxuIdhh5T2G7h4)  
 
 To process the data, run the following scripts:  
 - `Process_est/kitti.py`  
 - `Process_est/nyuv2.py`
+- `Process_est/void-relative.py`  
+- `Process_est/nyu-relative.py`
 - For KITTI: We have processed the train, val, saval and test of the KITTI dataset, you can also download it directly [Google Driver](https://drive.google.com/drive/folders/1MM3gwcAIz6JAED2PLrvwGRLGO8yYT5l5?usp=sharing)
 - For NYUv2：We provide a script that can directly insert the processed data into the h5 file. You can do this easily.
 
