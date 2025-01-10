@@ -100,7 +100,7 @@ if __name__ == "__main__":
 
     # Initialize dataset and DataLoader
     test_dataset = NYU(
-        path='datas/nyudepthv2',
+        path='data/nyudepthv2',
         mode='val',
         height=256,
         width=320,
