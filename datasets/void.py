@@ -33,8 +33,7 @@ def load_depth(path):
 def read_gen(file_name, pil=False):
     ext = osp.splitext(file_name)[-1]
     if ext in ['.png', '.jpeg', '.ppm', '.jpg']:
-        # 使用 OpenCV 读取图像
-        img = cv2.imread(file_name, cv2.IMREAD_UNCHANGED)  # IMREAD_UNCHANGED 用于保持图像的原始数据类型
+        img = cv2.imread(file_name, cv2.IMREAD_UNCHANGED)  
         if img is None:
             raise ValueError(f"Failed to read image from {file_name}")
         return img
@@ -64,7 +63,7 @@ class VOID(BaseDataset):
         super(VOID, self).__init__(mode)
 
         self.mode = mode
-        datapath = 'datas/void/void_release/void_1500'
+        datapath = 'data/void/void_release/void_1500'
         parent_dir = os.path.dirname(datapath)
 
         self.image_list = []
