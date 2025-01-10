@@ -1,13 +1,13 @@
 # Depth-Completion-based-on-foundation-model
 
-### Pre-Execution Setup  
+### 1.Pre-Execution Setup  
 
 Before running the program:  
 1. Download the official [DepthAnythingV2](https://github.com/DepthAnything/Depth-Anything-V2) library and [Checkpoints](https://github.com/DepthAnything/Depth-Anything-V2/tree/main/metric_depth#pre-trained-models).  
 2. Place them in the `Process_est/ `  
 3. Rename the folder to `da2`.  
 
-### Dataset Processing Instructions
+### 2.Dataset Processing Instructions
 
 You can easily process the following datasets:
 
