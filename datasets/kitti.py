@@ -32,7 +32,7 @@ class KITTI(torch.utils.data.Dataset):
     kitti depth completion dataset: http://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion
     """
 
-    def __init__(self, path='datas/kitti', mode='train', height=256, width=1216, mean=(90.9950, 96.2278, 94.3213),
+    def __init__(self, path='data/kitti', mode='train', height=256, width=1216, mean=(90.9950, 96.2278, 94.3213),
                  std=(79.2382, 80.5267, 82.1483), RandCrop=False, tp_min=50, *args, **kwargs):
         self.base_dir = path
         self.height = height
