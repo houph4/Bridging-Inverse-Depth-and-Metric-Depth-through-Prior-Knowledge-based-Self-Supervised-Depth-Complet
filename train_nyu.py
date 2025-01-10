@@ -194,7 +194,7 @@ if __name__ == "__main__":
 
     # Prepare training dataset
     train_dataset = NYU(
-        path='datas/nyudepthv2',
+        path='data/nyudepthv2',
         mode='train',  # Training mode
         height=256,  # Image height
         width=320,  # Image width
@@ -216,7 +216,7 @@ if __name__ == "__main__":
 
     # Prepare validation dataset
     val_dataset = NYU(
-        path='datas/nyudepthv2',
+        path='data/nyudepthv2',
         mode='val',
         height=256,
         width=320,
