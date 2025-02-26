@@ -26,6 +26,7 @@ To process the data, run the following scripts:
 
 - ### 3.Run
 You can easily run our demo:
+
 For train:
 - `python train_nyu.py`
 - `python train_void.py`
