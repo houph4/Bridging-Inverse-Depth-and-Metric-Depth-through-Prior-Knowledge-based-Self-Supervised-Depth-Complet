@@ -1,4 +1,4 @@
-# Depth-Completion-based-on-foundation-model
+# Bridging Inverse Depth and Metric Depth through Prior Knowledge-based Self-Supervised Depth Completion
 
 ### 1.Pre-Execution Setup  
 
