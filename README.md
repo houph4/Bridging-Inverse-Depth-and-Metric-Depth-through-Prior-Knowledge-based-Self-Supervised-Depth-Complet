@@ -24,5 +24,8 @@ To process the data, run the following scripts:
 - For NYUv2：We provide two scripts that can directly insert the processed data into the h5 file with keys('est','est_r'). You can do this easily.
 - For VOID：We provide a script that can directly insert the processed data into raw datasets. You can do this easily.
 
+- ### 3.Run
+You can easily run our demo:
+For train python  
 
 
