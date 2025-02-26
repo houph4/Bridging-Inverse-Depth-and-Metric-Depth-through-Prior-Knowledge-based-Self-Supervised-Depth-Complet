@@ -1,5 +1,8 @@
 # Bridging Inverse Depth and Metric Depth through Prior Knowledge-based Self-Supervised Depth Completion
 
+
+[fig2.pdf](https://github.com/user-attachments/files/18981161/fig2.pdf)
+
 ### 1.Pre-Execution Setup  
 
 Before running the program:  
