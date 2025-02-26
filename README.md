@@ -29,6 +29,7 @@ You can easily run our demo:
 For train:
 - `python train_nyu.py`
 - `python train_void.py`
+  
 For test:
 - `python infer_nyu.py`
 - `python infer_void.py`
