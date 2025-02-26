@@ -1,7 +1,8 @@
 # Bridging Inverse Depth and Metric Depth through Prior Knowledge-based Self-Supervised Depth Completion
 
+Bridging Inverse and Metric Depth Model
 
-[fig2.pdf](https://github.com/user-attachments/files/18981161/fig2.pdf)
+![fig2](https://github.com/user-attachments/assets/2eafb34f-00f4-4e2e-8d0a-3650f68542f5)
 
 ### 1.Pre-Execution Setup  
 
